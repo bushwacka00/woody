@@ -42,6 +42,12 @@ const services = [
   features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie"]
 },
 {
+  title: "Renovatie & Verduurzaming",
+  description: "Renovatie van houtwerk binnen en buiten. Verduurzaming met nieuwe kozijnen en HR++ isolatieglas voor een energiezuinig huis.",
+  image: kozijnenImg,
+  features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie"]
+},
+{
   title: "Keukens",
   description: "Complete keukeninstallatie van ontwerp tot plaatsing. Wij zorgen voor een keuken die perfect past bij uw woning en levensstijl.",
   image: keukenImg,
