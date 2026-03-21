@@ -46,6 +46,12 @@ const services = [
   description: "Complete badkamerrenovatie van A tot Z. Van tegels en sanitair tot meubels en afwerking — wij regelen het allemaal.",
   image: badkamerImg,
   features: ["Compleet", "Tegelwerk", "Sanitair", "Leidingwerk"]
+},
+{
+  title: "Badkamers",
+  description: "Complete badkamerrenovatie van A tot Z. Van tegels en sanitair tot meubels en afwerking — wij regelen het allemaal.",
+  image: badkamerImg,
+  features: ["Compleet", "Tegelwerk", "Sanitair", "Leidingwerk"]
 }];
 
 
