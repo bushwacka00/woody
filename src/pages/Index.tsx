@@ -24,22 +24,10 @@ const services = [
   features: ["Voordeuren", "Buitendeuren", "Binnendeuren", "Ensuite deuren"]
 },
 {
-  title: "Houten Deuren",
-  description: "Prachtige buitendeuren, voordeuren en binnendeuren. Van klassiek tot modern, altijd op maat gemaakt met oog voor detail.",
-  image: deurenImg,
-  features: ["Voordeuren", "Buitendeuren", "Binnendeuren", "Ensuite deuren"]
-},
-{
   title: "Timmerwerk & Interieur",
   description: "Specialistisch timmerwerk voor exterieur én interieur. Architraven, vide's, kasten, ensuite panelen, deurlijsten en houten vloeren.",
   image: timmerwerkImg,
   features: ["Architraven", "Ensuite panelen", "Maatwerk kasten", "Houten vloeren"]
-},
-{
-  title: "Renovatie & Verduurzaming",
-  description: "Renovatie van houtwerk binnen en buiten. Verduurzaming met nieuwe kozijnen en HR++ isolatieglas voor een energiezuinig huis.",
-  image: kozijnenImg,
-  features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie", "Facet-panelen"]
 },
 {
   title: "Renovatie & Verduurzaming",
