@@ -48,10 +48,10 @@ const services = [
   features: ["Compleet", "Tegelwerk", "Sanitair", "Leidingwerk"]
 },
 {
-  title: "Badkamers",
-  description: "Complete badkamerrenovatie van A tot Z. Van tegels en sanitair tot meubels en afwerking — wij regelen het allemaal.",
-  image: badkamerImg,
-  features: ["Compleet", "Tegelwerk", "Sanitair", "Leidingwerk"]
+  title: "Houten vloeren",
+  description: "Levendige moderne en rustieke houten vloeren in duurzame houtsoorten, nieuwe en gebruikte. Vloerverwarming ook mogelijk.",
+  image: timmerwerkImg,
+  features: ["Plaatsen", "Hardhout", "Vloerverwarming", "Nieuw en gebruikt"]
 }];
 
 
