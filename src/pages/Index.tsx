@@ -53,7 +53,7 @@ const usps = [
 { icon: Wrench, title: "Ambachtelijk Vakmanschap", description: "Traditionele technieken gecombineerd met moderne precisie" },
 { icon: Leaf, title: "Duurzaam Hout", description: "Wij werken uitsluitend met FSC-gecertificeerd hout" },
 { icon: Shield, title: "Garantie op Maat", description: "Uitgebreide garantie op al ons maatwerk" },
-{ icon: Star, title: "30+ Jaar Ervaring", description: "Bewezen expertise in klassiek en modern houtwerk" }];
+{ icon: Star, title: "20+ Jaar Ervaring", description: "Bewezen expertise in klassiek en modern houtwerk en kozijnen" }];
 
 
 const Index = () => {
