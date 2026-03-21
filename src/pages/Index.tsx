@@ -39,7 +39,7 @@ const services = [
   title: "Renovatie & Verduurzaming",
   description: "Renovatie van houtwerk binnen en buiten. Verduurzaming met nieuwe kozijnen en HR++ isolatieglas voor een energiezuinig huis.",
   image: kozijnenImg,
-  features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie"]
+  features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie", "Restauratie"]
 },
 {
   title: "Renovatie & Verduurzaming",
