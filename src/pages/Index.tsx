@@ -24,6 +24,12 @@ const services = [
   features: ["Voordeuren", "Buitendeuren", "Binnendeuren", "Ensuite deuren"]
 },
 {
+  title: "Houten Deuren",
+  description: "Prachtige buitendeuren, voordeuren en binnendeuren. Van klassiek tot modern, altijd op maat gemaakt met oog voor detail.",
+  image: deurenImg,
+  features: ["Voordeuren", "Buitendeuren", "Binnendeuren", "Ensuite deuren"]
+},
+{
   title: "Timmerwerk & Interieur",
   description: "Specialistisch timmerwerk voor exterieur én interieur. Architraven, vide's, kasten, ensuite panelen, deurlijsten en houten vloeren.",
   image: timmerwerkImg,
