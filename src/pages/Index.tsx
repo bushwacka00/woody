@@ -11,50 +11,50 @@ import logoImg from "@/assets/logo.png";
 import { useState } from "react";
 
 const services = [
-  {
-    title: "Houten Kozijnen & Ramen",
-    description: "Maatwerk kozijnen, raamkozijnen en schuiframen van de hoogste kwaliteit. Elk kozijn wordt met vakmanschap op maat vervaardigd.",
-    image: kozijnenImg,
-    features: ["Maatwerk kozijnen", "Schuiframen", "Raamkozijnen", "HR++ isolatieglas"],
-  },
-  {
-    title: "Houten Deuren",
-    description: "Prachtige buitendeuren, voordeuren en binnendeuren. Van klassiek tot modern, altijd op maat gemaakt met oog voor detail.",
-    image: deurenImg,
-    features: ["Voordeuren", "Buitendeuren", "Binnendeuren", "Ensuite deuren"],
-  },
-  {
-    title: "Timmerwerk & Interieur",
-    description: "Specialistisch timmerwerk voor exterieur én interieur. Architraven, vide's, kasten, ensuite panelen, deurlijsten en houten vloeren.",
-    image: timmerwerkImg,
-    features: ["Architraven", "Ensuite panelen", "Maatwerk kasten", "Houten vloeren"],
-  },
-  {
-    title: "Renovatie & Verduurzaming",
-    description: "Renovatie van houtwerk binnen en buiten. Verduurzaming met nieuwe kozijnen en HR++ isolatieglas voor een energiezuinig huis.",
-    image: kozijnenImg,
-    features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie"],
-  },
-  {
-    title: "Keukens",
-    description: "Complete keukeninstallatie van ontwerp tot plaatsing. Wij zorgen voor een keuken die perfect past bij uw woning en levensstijl.",
-    image: keukenImg,
-    features: ["Plaatsing", "Installatie", "Maatwerk", "Advies"],
-  },
-  {
-    title: "Badkamers",
-    description: "Complete badkamerrenovatie van A tot Z. Van tegels en sanitair tot meubels en afwerking — wij regelen het allemaal.",
-    image: badkamerImg,
-    features: ["Compleet", "Tegelwerk", "Sanitair", "Leidingwerk"],
-  },
-];
+{
+  title: "Houten Kozijnen & Ramen",
+  description: "Maatwerk kozijnen, raamkozijnen en schuiframen van de hoogste kwaliteit. Elk kozijn wordt met vakmanschap op maat vervaardigd.",
+  image: kozijnenImg,
+  features: ["Maatwerk kozijnen", "Schuiframen", "Raamkozijnen", "HR++ isolatieglas"]
+},
+{
+  title: "Houten Deuren",
+  description: "Prachtige buitendeuren, voordeuren en binnendeuren. Van klassiek tot modern, altijd op maat gemaakt met oog voor detail.",
+  image: deurenImg,
+  features: ["Voordeuren", "Buitendeuren", "Binnendeuren", "Ensuite deuren"]
+},
+{
+  title: "Timmerwerk & Interieur",
+  description: "Specialistisch timmerwerk voor exterieur én interieur. Architraven, vide's, kasten, ensuite panelen, deurlijsten en houten vloeren.",
+  image: timmerwerkImg,
+  features: ["Architraven", "Ensuite panelen", "Maatwerk kasten", "Houten vloeren"]
+},
+{
+  title: "Renovatie & Verduurzaming",
+  description: "Renovatie van houtwerk binnen en buiten. Verduurzaming met nieuwe kozijnen en HR++ isolatieglas voor een energiezuinig huis.",
+  image: kozijnenImg,
+  features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie"]
+},
+{
+  title: "Keukens",
+  description: "Complete keukeninstallatie van ontwerp tot plaatsing. Wij zorgen voor een keuken die perfect past bij uw woning en levensstijl.",
+  image: keukenImg,
+  features: ["Plaatsing", "Installatie", "Maatwerk", "Advies"]
+},
+{
+  title: "Badkamers",
+  description: "Complete badkamerrenovatie van A tot Z. Van tegels en sanitair tot meubels en afwerking — wij regelen het allemaal.",
+  image: badkamerImg,
+  features: ["Compleet", "Tegelwerk", "Sanitair", "Leidingwerk"]
+}];
+
 
 const usps = [
-  { icon: Wrench, title: "Ambachtelijk Vakmanschap", description: "Traditionele technieken gecombineerd met moderne precisie" },
-  { icon: Leaf, title: "Duurzaam Hout", description: "Wij werken uitsluitend met FSC-gecertificeerd hout" },
-  { icon: Shield, title: "Garantie op Maat", description: "Uitgebreide garantie op al ons maatwerk" },
-  { icon: Star, title: "30+ Jaar Ervaring", description: "Bewezen expertise in klassiek en modern houtwerk" },
-];
+{ icon: Wrench, title: "Ambachtelijk Vakmanschap", description: "Traditionele technieken gecombineerd met moderne precisie" },
+{ icon: Leaf, title: "Duurzaam Hout", description: "Wij werken uitsluitend met FSC-gecertificeerd hout" },
+{ icon: Shield, title: "Garantie op Maat", description: "Uitgebreide garantie op al ons maatwerk" },
+{ icon: Star, title: "30+ Jaar Ervaring", description: "Bewezen expertise in klassiek en modern houtwerk" }];
+
 
 const Index = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -66,7 +66,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 sm:h-20">
             <div className="flex items-center gap-2 sm:gap-3">
-              <img src={logoImg} alt="Woody Kozijnen logo" className="h-10 sm:h-14 w-auto" />
+              <img alt="Woody Kozijnen logo" className="h-10 sm:h-14 w-auto" src="/lovable-uploads/22b469c4-38e8-43ee-92aa-7409c03014e7.png" />
             </div>
             {/* Desktop nav */}
             <div className="hidden md:flex items-center gap-6 lg:gap-8">
@@ -84,8 +84,8 @@ const Index = () => {
             <button
               className="md:hidden p-2 text-foreground"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              aria-label="Menu"
-            >
+              aria-label="Menu">
+              
               <div className="space-y-1.5">
                 <span className={`block w-6 h-0.5 bg-foreground transition-all ${mobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`} />
                 <span className={`block w-6 h-0.5 bg-foreground transition-all ${mobileMenuOpen ? 'opacity-0' : ''}`} />
@@ -94,8 +94,8 @@ const Index = () => {
             </button>
           </div>
           {/* Mobile menu */}
-          {mobileMenuOpen && (
-            <div className="md:hidden pb-4 border-t border-border pt-4 space-y-3">
+          {mobileMenuOpen &&
+          <div className="md:hidden pb-4 border-t border-border pt-4 space-y-3">
               <a href="#diensten" onClick={() => setMobileMenuOpen(false)} className="block text-muted-foreground hover:text-primary transition-colors font-medium">Diensten</a>
               <a href="#over-ons" onClick={() => setMobileMenuOpen(false)} className="block text-muted-foreground hover:text-primary transition-colors font-medium">Over Ons</a>
               <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="block text-muted-foreground hover:text-primary transition-colors font-medium">Contact</a>
@@ -106,7 +106,7 @@ const Index = () => {
                 </a>
               </Button>
             </div>
-          )}
+          }
         </div>
       </nav>
 
@@ -121,12 +121,12 @@ const Index = () => {
             <p className="text-accent font-medium tracking-widest uppercase text-xs sm:text-sm mb-3 sm:mb-4">
               Ambachtelijk Houtwerk
             </p>
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-4 sm:mb-6">
-              Maatwerk Kozijnen, Deuren & Timmerwerk
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-4 sm:mb-6">Maatwerk Houten Kozijnen, Deuren & Timmerwerk
+
             </h1>
-            <p className="text-base sm:text-xl text-primary-foreground/80 mb-6 sm:mb-8 leading-relaxed max-w-xl">
-              Al meer dan 30 jaar specialist in houten kozijnen, deuren en timmerwerk. 
-              Van klassieke restauratie tot moderne verduurzaming.
+            <p className="text-base sm:text-xl text-primary-foreground/80 mb-6 sm:mb-8 leading-relaxed max-w-xl">Al meer dan 20 jaar specialist in houten kozijnen, deuren en timmerwerk. Van klassieke restauratie tot moderne verduurzaming.
+
+
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Button size="lg" asChild className="text-base">
@@ -150,15 +150,15 @@ const Index = () => {
       <section id="over-ons" className="py-12 sm:py-20 bg-card border-y border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
-            {usps.map((usp) => (
-              <div key={usp.title} className="text-center p-4 sm:p-6">
+            {usps.map((usp) =>
+            <div key={usp.title} className="text-center p-4 sm:p-6">
                 <div className="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-primary/10 text-primary mb-3 sm:mb-4">
                   <usp.icon className="h-5 w-5 sm:h-6 sm:w-6" />
                 </div>
                 <h3 className="font-semibold text-foreground text-sm sm:text-base mb-1 sm:mb-2">{usp.title}</h3>
                 <p className="text-muted-foreground text-xs sm:text-sm">{usp.description}</p>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -169,35 +169,35 @@ const Index = () => {
           <div className="text-center mb-12 sm:mb-16">
             <p className="text-accent font-medium tracking-widest uppercase text-xs sm:text-sm mb-2 sm:mb-3">Onze Specialisaties</p>
             <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-3 sm:mb-4">Wat Wij Voor U Doen</h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-lg">
-              Van maatwerk kozijnen tot complete badkamerrenovaties — wij leveren vakmanschap op elk niveau.
+            <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-lg">Van maatwerk kozijnen & deuren tot complete keuken- en badkamerrenovaties — wij leveren vakmanschap op elk niveau.
+
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {services.map((service) => (
-              <Card key={service.title} className="overflow-hidden group hover:shadow-lg transition-shadow duration-300 border-border">
+            {services.map((service) =>
+            <Card key={service.title} className="overflow-hidden group hover:shadow-lg transition-shadow duration-300 border-border">
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
-                    src={service.image}
-                    alt={service.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    loading="lazy"
-                  />
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy" />
+                
                 </div>
                 <CardContent className="p-5 sm:p-6">
                   <h3 className="text-lg sm:text-xl font-bold text-foreground mb-2">{service.title}</h3>
                   <p className="text-muted-foreground text-sm mb-4 leading-relaxed">{service.description}</p>
                   <div className="flex flex-wrap gap-2">
-                    {service.features.map((feature) => (
-                      <span key={feature} className="text-xs bg-secondary text-secondary-foreground px-2.5 py-1 rounded-full font-medium">
+                    {service.features.map((feature) =>
+                  <span key={feature} className="text-xs bg-secondary text-secondary-foreground px-2.5 py-1 rounded-full font-medium">
                         {feature}
                       </span>
-                    ))}
+                  )}
                   </div>
                 </CardContent>
               </Card>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -346,8 +346,8 @@ const Index = () => {
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>);
+
 };
 
 export default Index;
