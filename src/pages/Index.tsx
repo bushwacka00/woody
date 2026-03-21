@@ -330,7 +330,7 @@ const Index = () => {
               <h4 className="font-semibold text-primary-foreground mb-3 sm:mb-4 text-sm sm:text-base">Contact</h4>
               <ul className="space-y-2 text-primary-foreground/60 text-sm">
                 <li>
-                  <a href="tel:+31 6 2876 4171" className="hover:text-primary-foreground transition-colors">+31 6 2876 4171</a>
+                  <a href="tel:+31612345678" className="hover:text-primary-foreground transition-colors">+31 6 1234 5678</a>
                 </li>
                 <li>
                   <a href="mailto:info@woodykozijnen.nl" className="hover:text-primary-foreground transition-colors">info@woodykozijnen.nl</a>
