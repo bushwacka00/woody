@@ -26,7 +26,7 @@ const services = [
 {
   title: "Timmerwerk & Interieur",
   description: "Specialistisch timmerwerk voor exterieur én interieur. Architraven, vide's, kasten, ensuite panelen, deurlijsten en houten vloeren.",
-  image: timmerwerkImg,
+  image: "/lovable-uploads/a186fea5-237e-47e8-bafc-15de21ec5e93.jpg",
   features: ["Architraven", "Ensuite panelen", "Maatwerk kasten", "Houten vloeren"]
 },
 {
