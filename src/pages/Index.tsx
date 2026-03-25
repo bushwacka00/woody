@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "@/assets/hero-bg.jpg";
 import kozijnenImg from "@/assets/kozijnen.jpg";
 import deurenImg from "@/assets/deuren.jpg";
-import timmerwerkImg from "@/assets/timmerwerk.jpg";
+
 import keukenImg from "@/assets/keuken.jpg";
 import badkamerImg from "@/assets/badkamer.jpg";
 import logoImg from "@/assets/logo.png";
@@ -26,7 +26,7 @@ const services = [
 {
   title: "Timmerwerk & Interieur",
   description: "Specialistisch timmerwerk voor exterieur én interieur. Architraven, vide's, kasten, ensuite panelen, deurlijsten en houten vloeren.",
-  image: timmerwerkImg,
+  image: "/lovable-uploads/a186fea5-237e-47e8-bafc-15de21ec5e93.jpg",
   features: ["Architraven", "Ensuite panelen", "Maatwerk kasten", "Houten vloeren"]
 },
 {
@@ -50,7 +50,7 @@ const services = [
 {
   title: "Houten vloeren",
   description: "Levendige moderne en rustieke houten vloeren in duurzame houtsoorten, nieuwe en gebruikte. Vloerverwarming ook mogelijk.",
-  image: timmerwerkImg,
+  image: "/lovable-uploads/a186fea5-237e-47e8-bafc-15de21ec5e93.jpg",
   features: ["Plaatsen", "Hardhout", "Vloerverwarming", "Nieuw en gebruikt"]
 }];
 
