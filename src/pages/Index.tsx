@@ -50,7 +50,7 @@ const services = [
 {
   title: "Houten vloeren",
   description: "Levendige moderne en rustieke houten vloeren in duurzame houtsoorten, nieuwe en gebruikte. Vloerverwarming ook mogelijk.",
-  image: timmerwerkImg,
+  image: "/lovable-uploads/a186fea5-237e-47e8-bafc-15de21ec5e93.jpg",
   features: ["Plaatsen", "Hardhout", "Vloerverwarming", "Nieuw en gebruikt"]
 }];
 
