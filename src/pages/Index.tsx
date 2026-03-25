@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "@/assets/hero-bg.jpg";
 import kozijnenImg from "@/assets/kozijnen.jpg";
 import deurenImg from "@/assets/deuren.jpg";
-import timmerwerkImg from "@/assets/timmerwerk.jpg";
+
 import keukenImg from "@/assets/keuken.jpg";
 import badkamerImg from "@/assets/badkamer.jpg";
 import logoImg from "@/assets/logo.png";
