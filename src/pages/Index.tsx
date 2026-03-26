@@ -30,7 +30,7 @@ const services = [
 {
   title: "Houten Schuifpuien",
   description: "Vernieuwen of renovatie, verduurzamen van houten schuifpuien incl. HR++ glas en tochtdichting.",
-  image: "/uploads/1-houten-deuren.webp",
+  image: "/uploads/1-houten-schuifpuien.webp",
   features: ["Houten schuifpuien", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
 },
 {
