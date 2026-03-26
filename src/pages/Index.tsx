@@ -61,6 +61,12 @@ const services = [
   description: "Levendige moderne en rustieke houten vloeren in duurzame houtsoorten, nieuwe en gebruikte. Vloerverwarming ook mogelijk.",
   image: "/uploads/1-houten-vloeren.webp",
   features: ["Plaatsen", "Hardhout", "Vloerverwarming", "Nieuw en gebruikt"]
+},
+{
+  title: "Houten Daklijsten",
+  description: "Renovatie of vernieuwen van klassieke houten dak-, goot- en kraallijsten, gootklossen en kraagstenen consoles.",
+  image: "/uploads/1-houten-daklijsten.webp",
+  features: ["Renovatie", "Daklijsten", "Kraallijsten", "Sierlijsten en klossen"]
 }];
 
 
