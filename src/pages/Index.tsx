@@ -2,7 +2,6 @@ import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRigh
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "@/assets/hero-bg.jpg";
-import kozijnenImg from "@/assets/kozijnen.jpg";
 import deurenImg from "@/assets/deuren.jpg";
 
 import keukenImg from "@/assets/keuken.jpg";
@@ -14,7 +13,7 @@ const services = [
 {
   title: "Houten Kozijnen & Ramen",
   description: "Maatwerk kozijnen, raamkozijnen en schuiframen van de hoogste kwaliteit. Elk kozijn wordt met vakmanschap op maat vervaardigd.",
-  image: kozijnenImg,
+  image: "/lovable-uploads/1-ramen-kozijnen.jpg",
   features: ["Maatwerk kozijnen", "Schuiframen", "Raamkozijnen", "HR++ isolatieglas"]
 },
 {
