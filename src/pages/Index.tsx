@@ -12,31 +12,31 @@ const services = [
 {
   title: "Houten Kozijnen & Ramen",
   description: "Maatwerk kozijnen, raamkozijnen en schuiframen van de hoogste kwaliteit. Elk kozijn wordt met vakmanschap op maat vervaardigd met de gewenste sierprofielen.",
-  image: "/lovable-uploads/1-houten-ramen-kozijnen.jpg",
+  image: "/uploads/1-houten-ramen-kozijnen.jpg",
   features: ["Raamozijnen", "HR++ isolatieglas", "Roedeverdeling", "Sierweldorpel"]
 },
 {
   title: "Houten Deuren",
   description: "Prachtige buitendeuren, voordeuren en binnendeuren. Van klassiek tot modern, altijd op maat gemaakt met oog voor detail.",
-  image: "/lovable-uploads/1-houten-deuren.webp",
+  image: "/uploads/1-houten-deuren.webp",
   features: ["Voordeuren", "Buitendeuren", "Binnendeuren", "Ensuite deuren"]
 },
 {
   title: "Houten Schuiframen",
   description: "Renovatie/reparatie en verduurzamen van houten schuiframen incl. HR++ glas, tochtdichting en verzwaren contra-gewichten of schuifraamveren.",
-  image: "/lovable-uploads/1-houten-schuiframen.jpg",
+  image: "/uploads/1-houten-schuiframen.jpg",
   features: ["Houten schuiframen", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
 },
 {
   title: "Houten Schuifpuien",
   description: "Vernieuwen of renovatie, verduurzamen van houten schuifpuien incl. HR++ glas en tochtdichting.",
-  image: "/lovable-uploads/1-deuren.jpg",
+  image: "/uploads/1-deuren.jpg",
   features: ["Houten schuifpuien", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
 },
 {
   title: "Timmerwerk & Interieur",
   description: "Specialistisch timmerwerk voor exterieur én interieur. Architraven, vide's, kasten, ensuite panelen, deurlijsten en houten vloeren.",
-  image: "/lovable-uploads/1-en-suite.webp",
+  image: "/uploads/1-en-suite.webp",
   features: ["Architraven", "Ensuite panelen", "Maatwerk kasten", "Houten vloeren"]
 },
 {
@@ -60,7 +60,7 @@ const services = [
 {
   title: "Houten vloeren",
   description: "Levendige moderne en rustieke houten vloeren in duurzame houtsoorten, nieuwe en gebruikte. Vloerverwarming ook mogelijk.",
-  image: "/lovable-uploads/a186fea5-237e-47e8-bafc-15de21ec5e93.jpg",
+  image: "/uploads/a186fea5-237e-47e8-bafc-15de21ec5e93.jpg",
   features: ["Plaatsen", "Hardhout", "Vloerverwarming", "Nieuw en gebruikt"]
 }];
 
@@ -82,7 +82,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 sm:h-20">
             <div className="flex items-center gap-2 sm:gap-3">
-              <img alt="Woody Kozijnen logo" className="h-10 sm:h-14 w-auto" src="/lovable-uploads/0-logo-woody-kozijnen.png" />
+              <img alt="Woody Kozijnen logo" className="h-10 sm:h-14 w-auto" src="/uploads/0-logo-woody-kozijnen.png" />
             </div>
             {/* Desktop nav */}
             <div className="hidden md:flex items-center gap-6 lg:gap-8">
