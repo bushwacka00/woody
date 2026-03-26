@@ -12,7 +12,7 @@ const services = [
 {
   title: "Houten Kozijnen & Ramen",
   description: "Maatwerk kozijnen, raamkozijnen en schuiframen van de hoogste kwaliteit. Elk kozijn wordt met vakmanschap op maat vervaardigd met de gewenste sierprofielen.",
-  image: "/uploads/1-houten-ramen-kozijnen.jpg",
+  image: "/uploads/1-houten-ramen-kozijnen.webp",
   features: ["Raamozijnen", "HR++ isolatieglas", "Roedeverdeling", "Sierweldorpel"]
 },
 {
@@ -24,13 +24,13 @@ const services = [
 {
   title: "Houten Schuiframen",
   description: "Renovatie/reparatie en verduurzamen van houten schuiframen incl. HR++ glas, tochtdichting en verzwaren contra-gewichten of schuifraamveren.",
-  image: "/uploads/1-houten-schuiframen.jpg",
+  image: "/uploads/1-houten-schuiframen.webp",
   features: ["Houten schuiframen", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
 },
 {
   title: "Houten Schuifpuien",
   description: "Vernieuwen of renovatie, verduurzamen van houten schuifpuien incl. HR++ glas en tochtdichting.",
-  image: "/uploads/1-deuren.jpg",
+  image: "/uploads/1-houten-deuren.webp",
   features: ["Houten schuifpuien", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
 },
 {
@@ -60,7 +60,7 @@ const services = [
 {
   title: "Houten vloeren",
   description: "Levendige moderne en rustieke houten vloeren in duurzame houtsoorten, nieuwe en gebruikte. Vloerverwarming ook mogelijk.",
-  image: "/uploads/a186fea5-237e-47e8-bafc-15de21ec5e93.jpg",
+  image: "/uploads/1-houten-vloeren.webp",
   features: ["Plaatsen", "Hardhout", "Vloerverwarming", "Nieuw en gebruikt"]
 }];
 
