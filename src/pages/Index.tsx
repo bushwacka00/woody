@@ -67,14 +67,20 @@ const services = [
   description: "Complete badkamerrenovatie van A tot Z. Van tegels en sanitair tot meubels en afwerking — wij regelen het allemaal.",
   image: "/uploads/1-badkamers.webp",
   features: ["Compleet", "Tegelwerk", "Sanitair", "Leidingwerk"]
+},
+{
+  title: "Ontwerp & Tekeningen",
+  description: "Samen met u maken wij de eerste schetsen. Daarna zorgen wij voor de tekeningen en monteren wij de gebouwde producten.",
+  image: "/uploads/1-ontwerp-tekeningen.webp",
+  features: ["Ontwerpen", "Gewenste materialen", "Digitale tekeningen", "Maatwerk"]
 }];
 
 
 const usps = [
 { icon: Wrench, title: "Ambachtelijk Vakmanschap", description: "Traditionele technieken gecombineerd met moderne precisie" },
 { icon: Leaf, title: "Duurzaam Hout", description: "Wij werken uitsluitend met FSC-gecertificeerd hout" },
-{ icon: Shield, title: "Garantie op Maat", description: "Uitgebreide garantie op al ons maatwerk" },
-{ icon: Star, title: "20+ Jaar Ervaring", description: "Bewezen expertise in klassiek en modern houtwerk en kozijnen" }];
+{ icon: Shield, title: "Ontwerp & Tekeningen", description: "Wij ontwerpen samen met u en maken de tekeningen" },
+{ icon: Star, title: "15+ Jaar Ervaring", description: "Bewezen expertise in klassiek en modern houtwerk en interieurbouw" }];
 
 
 const Index = () => {
@@ -140,12 +146,12 @@ const Index = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
           <div className="max-w-2xl">
             <p className="text-accent font-medium tracking-widest uppercase text-xs sm:text-sm mb-3 sm:mb-4">
-              Ambachtelijk Houtwerk
+              Ambachtelijk Houtwerk & Interieurbouw
             </p>
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-4 sm:mb-6">Maatwerk Houten Kozijnen, Deuren & Timmerwerk
 
             </h1>
-            <p className="text-base sm:text-xl text-primary-foreground/80 mb-6 sm:mb-8 leading-relaxed max-w-xl">Al meer dan 20 jaar specialist in houten kozijnen, deuren en timmerwerk. Van klassieke restauratie tot moderne verduurzaming.
+            <p className="text-base sm:text-xl text-primary-foreground/80 mb-6 sm:mb-8 leading-relaxed max-w-xl">Al meer dan 15 jaar specialist in houten kozijnen, deuren, timmerwerk en interieurbouw. Van klassieke restauratie tot moderne verduurzaming.
 
 
             </p>
@@ -173,9 +179,7 @@ const Index = () => {
           <div className="text-center mb-12 sm:mb-16">
             <p className="text-accent font-medium tracking-widest uppercase text-xs sm:text-sm mb-2 sm:mb-3">Onze Specialisaties</p>
             <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-3 sm:mb-4">Wat Wij Voor U Doen</h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-lg">Van maatwerk kozijnen & deuren tot complete keuken- en badkamerrenovaties — wij leveren vakmanschap op elk niveau.
-
-            </p>
+            <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-lg">Van maatwerk kozijnen & deuren tot complete keuken- en badkamerrenovaties — wij leveren vakmanschap op elk niveau.</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
@@ -228,7 +232,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-4xl font-bold mb-3 sm:mb-4">Klaar voor Uw Project?</h2>
           <p className="text-primary-foreground/80 text-base sm:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto">
-            Of het nu gaat om een enkel kozijn of een complete renovatie — wij denken graag met u mee. 
+            Of het nu gaat om een enkel kozijn, een kleine aanpassing of een complete renovatie — wij denken graag met u mee. 
             Vraag vrijblijvend een offerte aan.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
@@ -256,7 +260,7 @@ const Index = () => {
               <p className="text-accent font-medium tracking-widest uppercase text-xs sm:text-sm mb-2 sm:mb-3">Neem Contact Op</p>
               <h2 className="text-2xl sm:text-4xl font-bold text-foreground mb-4 sm:mb-6">Wij Helpen U Graag</h2>
               <p className="text-muted-foreground text-sm sm:text-lg mb-6 sm:mb-8 leading-relaxed">
-                Heeft u een vraag of wilt u een vrijblijvende offerte? Neem gerust contact met ons op. 
+                Heeft u een vraag of wilt u vrijblijvende informatie of een offerte? Neem gerust contact met ons op. 
                 Wij reageren doorgaans binnen 24 uur.
               </p>
               <div className="space-y-4 sm:space-y-6">
@@ -288,6 +292,8 @@ const Index = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground text-sm sm:text-base">Adres</p>
+                    <p className="text-muted-foreground text-sm sm:text-base">Buijs Ballotstraat 24</p>
+                    <p className="text-muted-foreground text-sm sm:text-base">2563 ZL DEN HAAG</p>
                     <p className="text-muted-foreground text-sm sm:text-base">Nederland</p>
                   </div>
                 </div>
@@ -333,16 +339,20 @@ const Index = () => {
             <div>
               <img src={logoImg} alt="Woody Kozijnen" className="h-12 sm:h-16 w-auto mb-4 brightness-200" />
               <p className="text-primary-foreground/60 text-sm leading-relaxed">
-                Specialist in houten kozijnen, deuren en timmerwerk. Al meer dan 30 jaar vakmanschap.
+                Specialist in houten kozijnen, deuren, timmerwerk en interieurbouw. Al meer dan 15 jaar vakmanschap.
               </p>
             </div>
             <div>
-              <h4 className="font-semibold text-primary-foreground mb-3 sm:mb-4 text-sm sm:text-base">Diensten</h4>
+              <h4 className="font-semibold text-primary-foreground mb-3 sm:mb-4 text-sm sm:text-base">Producten & Diensten</h4>
               <ul className="space-y-2 text-primary-foreground/60 text-sm">
                 <li>Houten Kozijnen & Ramen</li>
                 <li>Houten Deuren</li>
-                <li>Timmerwerk & Interieur</li>
+                <li>Houten Schuiframen</li>
+                <li>Houten Schuifpuien</li>
+                <li>Houten Daklijsten</li>
                 <li>Renovatie & Verduurzaming</li>
+                <li>Timmerwerk & Interieur</li>
+                <li>Houten Vloeren</li>
                 <li>Keukens</li>
                 <li>Badkamers</li>
               </ul>
