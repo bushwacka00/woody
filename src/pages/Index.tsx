@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRigh
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "@/assets/hero-bg.jpg";
-
+import kozijnenImg from "@/assets/kozijnen.jpg";
 import keukenImg from "@/assets/keuken.jpg";
 import badkamerImg from "@/assets/badkamer.jpg";
 import logoImg from "@/assets/logo.png";
