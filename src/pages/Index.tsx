@@ -5,7 +5,7 @@ import heroBg from "@/public/uploads/0-bg-woodykozijnen.webp";
 import logoImg from "@/public/uploads/0-logo-woody-kozijnen.png";
 //import logoImg from "@/assets/logo.png";
 import { useState } from "react";
-
+ 
 const services = [
 {
   title: "Houten Kozijnen & Ramen",
