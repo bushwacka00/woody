@@ -18,7 +18,7 @@ const services = [
 {
   title: "Houten Deuren",
   description: "Prachtige buitendeuren, voordeuren en binnendeuren. Van klassiek tot modern, altijd op maat gemaakt met oog voor detail.",
-  image: "/lovable-uploads/1-houten-deuren.jpg",
+  image: "/lovable-uploads/1-houten-deuren.webp",
   features: ["Voordeuren", "Buitendeuren", "Binnendeuren", "Ensuite deuren"]
 },
 {
