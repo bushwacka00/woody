@@ -42,13 +42,13 @@ const services = [
   title: "Renovatie & Verduurzaming",
   description: "Renovatie van houtwerk binnen en buiten. Verduurzaming van kozijnen met HR++ isolatieglas en paneelisolatie voor een energiezuinig huis.",
   image: "/uploads/1-renovatie-verduurzaming.webp",
-  features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie", "Facet-panelen-isolatie"]
+  features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Facet-panelen-isolatie"]
 },
 {
   title: "Houten vloeren",
   description: "Levendige moderne en rustieke houten vloeren in duurzame houtsoorten, nieuwe en gebruikte. Vloerverwarming ook mogelijk.",
   image: "/uploads/1-houten-vloeren.webp",
-  features: ["Plaatsen", "Hardhout", "Vloerverwarming", "Nieuw en gebruikt"]
+  features: ["Hardhout", "Woongenot", "Vloerverwarming", "Nieuw en gebruikt"]
 },
 {
   title: "Houten Daklijsten",
