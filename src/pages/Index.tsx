@@ -347,16 +347,16 @@ const Index = () => {
             <div>
               <h4 className="font-semibold text-primary-foreground mb-3 sm:mb-4 text-sm sm:text-base">Producten & Diensten</h4>
               <ul className="space-y-2 text-primary-foreground/60 text-sm">
-                <li>Houten Kozijnen & Ramen</li>
-                <li>Houten Deuren</li>
-                <li>Houten Schuiframen</li>
-                <li>Houten Schuifpuien</li>
-                <li>Houten Daklijsten</li>
-                <li>Renovatie & Verduurzaming</li>
-                <li>Timmerwerk & Interieur</li>
-                <li>Houten Vloeren</li>
-                <li>Keukens</li>
-                <li>Badkamers</li>
+                <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Houten Kozijnen & Ramen</a></li>
+                <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Houten Deuren</a></li>
+                <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Houten Schuiframen</a></li>
+                <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Houten Schuifpuien</a></li>
+                <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Houten Daklijsten</a></li>
+                <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Renovatie & Verduurzaming</a></li>
+                <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Timmerwerk & Interieur</a></li>
+                <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Houten Vloeren</a></li>
+                <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Keukens</a></li>
+                <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Badkamers</a></li>
               </ul>
             </div>
             <div>
