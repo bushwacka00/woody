@@ -42,7 +42,7 @@ const services = [
   title: "Renovatie & Verduurzaming",
   description: "Renovatie van houtwerk binnen en buiten. Verduurzaming van kozijnen met HR++ isolatieglas en paneelisolatie voor een energiezuinig huis.",
   image: "/uploads/1-renovatie-verduurzaming.webp",
-  features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie", "Facet-panelen"]
+  features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie", "Facet-panelen-isolatie"]
 },
 {
   title: "Houten vloeren",
