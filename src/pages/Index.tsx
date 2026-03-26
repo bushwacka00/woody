@@ -45,18 +45,6 @@ const services = [
   features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie", "Facet-panelen"]
 },
 {
-  title: "Keukens",
-  description: "Complete keukeninstallatie van ontwerp tot plaatsing. Wij zorgen voor een keuken die perfect past bij uw woning en levensstijl.",
-  image: keukenImg,
-  features: ["Plaatsing", "Installatie", "Maatwerk", "Advies"]
-},
-{
-  title: "Badkamers",
-  description: "Complete badkamerrenovatie van A tot Z. Van tegels en sanitair tot meubels en afwerking — wij regelen het allemaal.",
-  image: badkamerImg,
-  features: ["Compleet", "Tegelwerk", "Sanitair", "Leidingwerk"]
-},
-{
   title: "Houten vloeren",
   description: "Levendige moderne en rustieke houten vloeren in duurzame houtsoorten, nieuwe en gebruikte. Vloerverwarming ook mogelijk.",
   image: "/uploads/1-houten-vloeren.webp",
@@ -67,6 +55,18 @@ const services = [
   description: "Renovatie of vernieuwen van klassieke houten dak-, goot- en kraallijsten, gootklossen en kraagstenen consoles.",
   image: "/uploads/1-houten-daklijsten.webp",
   features: ["Renovatie", "Daklijsten", "Kraallijsten", "Sierlijsten en klossen"]
+},
+{
+  title: "Keukens",
+  description: "Complete keukeninstallatie van ontwerp tot plaatsing. Wij zorgen voor een keuken die perfect past bij uw woning en levensstijl.",
+  image: keukenImg,
+  features: ["Plaatsing", "Installatie", "Maatwerk", "Advies"]
+},
+{
+  title: "Badkamers",
+  description: "Complete badkamerrenovatie van A tot Z. Van tegels en sanitair tot meubels en afwerking — wij regelen het allemaal.",
+  image: badkamerImg,
+  features: ["Compleet", "Tegelwerk", "Sanitair", "Leidingwerk"]
 }];
 
 
