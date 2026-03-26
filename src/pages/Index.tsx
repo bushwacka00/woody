@@ -1,8 +1,9 @@
 import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import heroBg from "@/public/uploads/0-bg-woodykozijnen.webp";
-import logoImg from "@/public/uploads/0-logo-woody-kozijnen.png";
+import heroBg from "/uploads/0-bg-woodykozijnen.webp";
+import logoImg from "/uploads/0-logo-woody-kozijnen.png";
+//import logoImg from "@/public/uploads/0-logo-woody-kozijnen.png";
 //import logoImg from "@/assets/logo.png";
 import { useState } from "react";
  
