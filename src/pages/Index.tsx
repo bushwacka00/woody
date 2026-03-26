@@ -33,10 +33,10 @@ const services = [
   features: ["Houten schuifpuien", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
 },
 {
-  title: "Timmerwerk & Interieur",
-  description: "Specialistisch timmerwerk voor exterieur én interieur zoals kasten, ensuite panelen en schuifdeuren, vide's, deurlijsten en architraven.",
-  image: "/uploads/1-timmerwerk-interieur.webp",
-  features: ["Kasten", "Ensuite panelen", "Maatwerk", "Ensuite Schuifdeuren"]
+  title: "Houten Daklijsten",
+  description: "Renovatie of vernieuwen van klassieke houten dak-, goot- en kraallijsten, gootklossen en kraagstenen consoles.",
+  image: "/uploads/1-houten-daklijsten.webp",
+  features: ["Renovatie", "Daklijsten", "Kraallijsten", "Sierlijsten en klossen"]
 },
 {
   title: "Renovatie & Verduurzaming",
@@ -45,16 +45,16 @@ const services = [
   features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Facet-panelen-isolatie"]
 },
 {
+  title: "Timmerwerk & Interieur",
+  description: "Specialistisch timmerwerk voor exterieur én interieur zoals kasten, ensuite panelen en schuifdeuren, vide's, deurlijsten en architraven.",
+  image: "/uploads/1-timmerwerk-interieur.webp",
+  features: ["Kasten", "Ensuite panelen", "Maatwerk", "Ensuite Schuifdeuren"]
+},
+{
   title: "Houten vloeren",
   description: "Levendige moderne en rustieke houten vloeren in duurzame houtsoorten, nieuwe en gebruikte. Vloerverwarming ook mogelijk.",
   image: "/uploads/1-houten-vloeren.webp",
   features: ["Hardhout", "Woongenot", "Vloerverwarming", "Nieuw en gebruikt"]
-},
-{
-  title: "Houten Daklijsten",
-  description: "Renovatie of vernieuwen van klassieke houten dak-, goot- en kraallijsten, gootklossen en kraagstenen consoles.",
-  image: "/uploads/1-houten-daklijsten.webp",
-  features: ["Renovatie", "Daklijsten", "Kraallijsten", "Sierlijsten en klossen"]
 },
 {
   title: "Keukens",
@@ -167,23 +167,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* USPs */}
-      <section id="over-ons" className="py-12 sm:py-20 bg-card border-y border-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
-            {usps.map((usp) =>
-            <div key={usp.title} className="text-center p-4 sm:p-6">
-                <div className="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-primary/10 text-primary mb-3 sm:mb-4">
-                  <usp.icon className="h-5 w-5 sm:h-6 sm:w-6" />
-                </div>
-                <h3 className="font-semibold text-foreground text-sm sm:text-base mb-1 sm:mb-2">{usp.title}</h3>
-                <p className="text-muted-foreground text-xs sm:text-sm">{usp.description}</p>
-              </div>
-            )}
-          </div>
-        </div>
-      </section>
-
       {/* Services */}
       <section id="diensten" className="py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -218,6 +201,23 @@ const Index = () => {
                   </div>
                 </CardContent>
               </Card>
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* USPs */}
+      <section id="over-ons" className="py-12 sm:py-20 bg-card border-y border-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
+            {usps.map((usp) =>
+            <div key={usp.title} className="text-center p-4 sm:p-6">
+                <div className="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-primary/10 text-primary mb-3 sm:mb-4">
+                  <usp.icon className="h-5 w-5 sm:h-6 sm:w-6" />
+                </div>
+                <h3 className="font-semibold text-foreground text-sm sm:text-base mb-1 sm:mb-2">{usp.title}</h3>
+                <p className="text-muted-foreground text-xs sm:text-sm">{usp.description}</p>
+              </div>
             )}
           </div>
         </div>
