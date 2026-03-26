@@ -244,7 +244,7 @@ const Index = () => {
                 Bel vrijblijvend
               </a>
             </Button>
-            <Button size="lg" variant="outline" asChild className="text-base border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+            <Button size="lg" variant="secondary" asChild className="text-base">
               <a href="mailto:info@woodykozijnen.nl" className="gap-2">
                 <Mail className="h-5 w-5" />
                 Stuur een E-mail
