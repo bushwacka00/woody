@@ -2,7 +2,6 @@ import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRigh
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "@/assets/hero-bg.jpg";
-import kozijnenImg from "@/assets/kozijnen.jpg";
 import keukenImg from "@/assets/keuken.jpg";
 import badkamerImg from "@/assets/badkamer.jpg";
 import logoImg from "@/assets/logo.png";
@@ -42,7 +41,7 @@ const services = [
 {
   title: "Renovatie & Verduurzaming",
   description: "Renovatie van houtwerk binnen en buiten. Verduurzaming van kozijnen met HR++ isolatieglas en paneelisolatie voor een energiezuinig huis.",
-  image: kozijnenImg,
+  image: "/uploads/1-renovatie-verduurzaming.webp",
   features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie", "Facet-panelen"]
 },
 {
