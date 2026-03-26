@@ -22,21 +22,21 @@ const services = [
 },
 {
   title: "Houten Schuiframen",
-  description: "Renovatie/reparatie en verduurzamen van houten schuiframen incl. HR++ glas, tochtdichting en verzwaren contra-gewichten of schuifraamveren.",
+  description: "Renovatie of vernieuwen en verduurzamen van houten schuiframen incl. HR++ glas, tochtdichting en verzwaren contra-gewichten of schuifraamveren.",
   image: "/uploads/1-houten-schuiframen.webp",
   features: ["Houten schuiframen", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
 },
 {
   title: "Houten Schuifpuien",
-  description: "Vernieuwen of renovatie, verduurzamen van houten schuifpuien incl. HR++ glas en tochtdichting.",
+  description: "Renovatie of vernieuwen en verduurzamen van houten schuifpuien incl. HR++ glas en tochtdichting.",
   image: "/uploads/1-houten-schuifpuien.webp",
   features: ["Houten schuifpuien", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
 },
 {
   title: "Timmerwerk & Interieur",
-  description: "Specialistisch timmerwerk voor exterieur én interieur. Architraven, vide's, kasten, ensuite panelen, deurlijsten en houten vloeren.",
-  image: "/uploads/1-en-suite.webp",
-  features: ["Architraven", "Ensuite panelen", "Maatwerk kasten", "Houten vloeren"]
+  description: "Specialistisch timmerwerk voor exterieur én interieur zoals kasten, ensuite panelen en schuifdeuren, vide's, deurlijsten en architraven.",
+  image: "/uploads/1-timmerwerk-interieur.webp",
+  features: ["Kasten", "Ensuite panelen", "Maatwerk", "Ensuite Schuifdeuren"]
 },
 {
   title: "Renovatie & Verduurzaming",
