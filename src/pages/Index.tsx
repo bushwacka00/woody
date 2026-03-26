@@ -23,7 +23,7 @@ const services = [
 },
 {
   title: "Houten Schuiframen",
-  description: "Renovatie en verduurzamen van houten schuiframen incl. HR++ glas, tochtdichting en verzwaren contra-gewichten of schuifraamveren.",
+  description: "Renovatie/reparatie en verduurzamen van houten schuiframen incl. HR++ glas, tochtdichting en verzwaren contra-gewichten of schuifraamveren.",
   image: "/lovable-uploads/1-deuren.jpg",
   features: ["Houten schuiframen", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
 },
