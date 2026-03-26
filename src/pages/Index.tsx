@@ -239,7 +239,7 @@ const Index = () => {
             <Button size="lg" variant="secondary" asChild className="text-base">
               <a href="tel:+31612345678" className="gap-2">
                 <Phone className="h-5 w-5" />
-                Bel Direct
+                Bel vrijblijvend
               </a>
             </Button>
             <Button size="lg" variant="outline" asChild className="text-base border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
@@ -291,7 +291,7 @@ const Index = () => {
                     <MapPin className="h-4 w-4 sm:h-5 sm:w-5" />
                   </div>
                   <div>
-                    <p className="font-semibold text-foreground text-sm sm:text-base">Adres</p>
+                    <p className="font-semibold text-foreground text-sm sm:text-base">Kantoor-adres</p>
                     <p className="text-muted-foreground text-sm sm:text-base">Buijs Ballotstraat 24</p>
                     <p className="text-muted-foreground text-sm sm:text-base">2563 ZL DEN HAAG</p>
                     <p className="text-muted-foreground text-sm sm:text-base">Nederland</p>
