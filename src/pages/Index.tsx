@@ -22,6 +22,12 @@ const services = [
   features: ["Voordeuren", "Buitendeuren", "Binnendeuren", "Ensuite deuren"]
 },
 {
+  title: "Houten Schuiframen",
+  description: "Renovatie en verduurzamen van houten schuiframen incl. HR++ glas, tochtdichting en verzwaren contra-gewichten of schuifraamveren.",
+  image: "/lovable-uploads/1-deuren.jpg",
+  features: ["Houten schuiframen", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
+},
+{
   title: "Timmerwerk & Interieur",
   description: "Specialistisch timmerwerk voor exterieur én interieur. Architraven, vide's, kasten, ensuite panelen, deurlijsten en houten vloeren.",
   image: "/lovable-uploads/1-en-suite.webp",
