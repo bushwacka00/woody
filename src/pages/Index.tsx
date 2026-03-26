@@ -82,7 +82,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 sm:h-20">
             <div className="flex items-center gap-2 sm:gap-3">
-              <img alt="Woody Kozijnen logo" className="h-10 sm:h-14 w-auto" src="/lovable-uploads/22b469c4-38e8-43ee-92aa-7409c03014e7.png" />
+              <img alt="Woody Kozijnen logo" className="h-10 sm:h-14 w-auto" src="/lovable-uploads/0-logo-woody-kozijnen.png" />
             </div>
             {/* Desktop nav */}
             <div className="hidden md:flex items-center gap-6 lg:gap-8">
