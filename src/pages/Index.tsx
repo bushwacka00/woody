@@ -11,9 +11,9 @@ import { useState } from "react";
 const services = [
 {
   title: "Houten Kozijnen & Ramen",
-  description: "Maatwerk kozijnen, raamkozijnen en schuiframen van de hoogste kwaliteit. Elk kozijn wordt met vakmanschap op maat vervaardigd.",
+  description: "Maatwerk kozijnen, raamkozijnen en schuiframen van de hoogste kwaliteit. Elk kozijn wordt met vakmanschap op maat vervaardigd met de gewenste sierprofielen.",
   image: "/lovable-uploads/1-ramen-kozijnen.jpg",
-  features: ["Maatwerk kozijnen", "Schuiframen", "Raamkozijnen", "HR++ isolatieglas"]
+  features: ["Raamozijnen", "HR++ isolatieglas", "Roedeverdeling", "Sierweldorpel"]
 },
 {
   title: "Houten Deuren",
@@ -28,6 +28,12 @@ const services = [
   features: ["Houten schuiframen", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
 },
 {
+  title: "Houten Schuifpuien",
+  description: "Vernieuwen of renovatie, verduurzamen van houten schuifpuien incl. HR++ glas en tochtdichting.",
+  image: "/lovable-uploads/1-deuren.jpg",
+  features: ["Houten schuifpuien", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
+},
+{
   title: "Timmerwerk & Interieur",
   description: "Specialistisch timmerwerk voor exterieur én interieur. Architraven, vide's, kasten, ensuite panelen, deurlijsten en houten vloeren.",
   image: "/lovable-uploads/1-en-suite.webp",
@@ -35,7 +41,7 @@ const services = [
 },
 {
   title: "Renovatie & Verduurzaming",
-  description: "Renovatie van houtwerk binnen en buiten. Verduurzaming met nieuwe kozijnen en HR++ isolatieglas voor een energiezuinig huis.",
+  description: "Renovatie van houtwerk binnen en buiten. Verduurzaming van kozijnen met HR++ isolatieglas en paneelisolatie voor een energiezuinig huis.",
   image: kozijnenImg,
   features: ["Houtrenovatie", "HR++ beglazing", "Energiebesparing", "Restauratie", "Facet-panelen"]
 },
