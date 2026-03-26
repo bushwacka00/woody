@@ -2,8 +2,6 @@ import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRigh
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "@/assets/hero-bg.jpg";
-import kozijnenImg from "@/assets/kozijnen.jpg";
-import deurenImg from "@/assets/deuren.jpg";
 
 import keukenImg from "@/assets/keuken.jpg";
 import badkamerImg from "@/assets/badkamer.jpg";
@@ -20,7 +18,7 @@ const services = [
 {
   title: "Houten Deuren",
   description: "Prachtige buitendeuren, voordeuren en binnendeuren. Van klassiek tot modern, altijd op maat gemaakt met oog voor detail.",
-  image: deurenImg,
+  image: "/lovable-uploads/1-deuren.jpg",
   features: ["Voordeuren", "Buitendeuren", "Binnendeuren", "Ensuite deuren"]
 },
 {
