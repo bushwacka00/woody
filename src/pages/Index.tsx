@@ -184,7 +184,8 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {services.map((service) =>
-            <Card key={service.title} className="overflow-hidden group hover:shadow-lg transition-shadow duration-300 border-border">
+            <a key={service.title} href="index.html" className="block">
+              <Card className="overflow-hidden group hover:shadow-lg transition-shadow duration-300 border-border cursor-pointer">
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
                   src={service.image}
@@ -205,6 +206,7 @@ const Index = () => {
                   </div>
                 </CardContent>
               </Card>
+            </a>
             )}
           </div>
         </div>
