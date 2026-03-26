@@ -59,13 +59,13 @@ const services = [
 {
   title: "Keukens",
   description: "Complete keukeninstallatie van ontwerp tot plaatsing. Wij zorgen voor een keuken die perfect past bij uw woning en levensstijl.",
-  image: keukenImg,
+  image: "/uploads/1-keukens.webp",
   features: ["Plaatsing", "Installatie", "Maatwerk", "Advies"]
 },
 {
   title: "Badkamers",
   description: "Complete badkamerrenovatie van A tot Z. Van tegels en sanitair tot meubels en afwerking — wij regelen het allemaal.",
-  image: badkamerImg,
+  image: "/uploads/1-badkamers.webp",
   features: ["Compleet", "Tegelwerk", "Sanitair", "Leidingwerk"]
 }];
 
