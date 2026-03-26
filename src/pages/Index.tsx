@@ -12,19 +12,19 @@ const services = [
 {
   title: "Houten Kozijnen & Ramen",
   description: "Maatwerk kozijnen, raamkozijnen en schuiframen van de hoogste kwaliteit. Elk kozijn wordt met vakmanschap op maat vervaardigd met de gewenste sierprofielen.",
-  image: "/lovable-uploads/1-ramen-kozijnen.jpg",
+  image: "/lovable-uploads/1-houten-ramen-kozijnen.jpg",
   features: ["Raamozijnen", "HR++ isolatieglas", "Roedeverdeling", "Sierweldorpel"]
 },
 {
   title: "Houten Deuren",
   description: "Prachtige buitendeuren, voordeuren en binnendeuren. Van klassiek tot modern, altijd op maat gemaakt met oog voor detail.",
-  image: "/lovable-uploads/1-deuren.jpg",
+  image: "/lovable-uploads/1-houten-deuren.jpg",
   features: ["Voordeuren", "Buitendeuren", "Binnendeuren", "Ensuite deuren"]
 },
 {
   title: "Houten Schuiframen",
   description: "Renovatie/reparatie en verduurzamen van houten schuiframen incl. HR++ glas, tochtdichting en verzwaren contra-gewichten of schuifraamveren.",
-  image: "/lovable-uploads/1-deuren.jpg",
+  image: "/lovable-uploads/1-houten-schuiframen.jpg",
   features: ["Houten schuiframen", "Renovatie", "HR++ Isolatieglas", "Tochtdichtingen"]
 },
 {
