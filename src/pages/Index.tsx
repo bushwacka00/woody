@@ -274,18 +274,22 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
             {[
               {
+                subject: "Vernieuwen klassieke raamkozijnen, schuiframen incl. isolatie.",
                 text: "Wij wilden kozijnen en schuiframen van onze Haagse woning uit 1906 in klassieke stijl verduurzamen, isoleren met dubbel glas en functioneel maken. Het houtwerk was slecht en een deel van de oorspronkelijke stijl was in de 120 jaar knullig opgelapt (of zelfs weggehaald). Meerdere bedrijven zijn komen kijken en meten. Woodykozijnen kwam hier erg voordelig uit met een veel kennis en vakmanschap voor klassiek herstel en verduurzaming. Ze hebben alle kozijnen weer volledig hersteld of vernieuwd, isolatieglas aangebracht en alle schuiframen weer functioneel gemaakt. Het uiteindelijke resultaat is fantastisch warme uitstraling van de klassieke woning en het genot van optimale isolatie.",
                 author: "Ad & Iet"
               },
               {
+                subject: "Onderwerp",
                 text: "Binnenkort meer te lezen over de ervaring van deze klant.",
                 author: "Klant 2"
               },
               {
+                subject: "Onderwerp",
                 text: "Binnenkort meer te lezen over de ervaring van deze klant.",
                 author: "Klant 3"
               },
               {
+                subject: "Onderwerp",
                 text: "Binnenkort meer te lezen over de ervaring van deze klant.",
                 author: "Klant 4"
               }
@@ -293,6 +297,7 @@ const Index = () => {
               <Card key={index} className="relative overflow-hidden">
                 <CardContent className="p-6 sm:p-8">
                   <Quote className="h-8 w-8 text-primary/20 mb-4" />
+                  <h3 className="font-semibold text-foreground text-base sm:text-lg mb-3">{testimonial.subject}</h3>
                   <p className="text-muted-foreground text-sm sm:text-base leading-relaxed mb-6">
                     {testimonial.text}
                   </p>
