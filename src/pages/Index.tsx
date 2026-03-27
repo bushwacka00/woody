@@ -393,7 +393,7 @@ const Index = () => {
             <div>
               <img src={logoImgBottom} alt="Woody Kozijnen" className="h-12 sm:h-16 w-auto mb-4 brightness-200" />
               <p className="text-primary-foreground/60 text-sm leading-relaxed">
-                Specialist in houten kozijnen, deuren, timmerwerk en interieurbouw. Al meer dan 15 jaar vakmanschap.
+                Specialist in houtwerk voor moderne en klassieke kozijnen, deuren, timmerwerk en interieurbouw. Al meer dan 15 jaar vakmanschap.
               </p>
             </div>
             <div>
