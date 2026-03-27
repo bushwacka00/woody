@@ -5,7 +5,21 @@ import heroBg from "/uploads/0-bg-woodykozijnen.webp";
 import logoImg from "/uploads/0-logo-woody-kozijnen-1.png";
 import logoImgBottom from "/uploads/0-logo-woody-kozijnen-2.png";
 import { useState } from "react";
- 
+
+const dienstenLinks = [
+  "Houten Kozijnen & Ramen",
+  "Houten Deuren",
+  "Houten Schuiframen",
+  "Houten Schuifpuien",
+  "Houten Daklijsten",
+  "Renovatie & Verduurzaming",
+  "Timmerwerk & Interieur",
+  "Houten Vloeren",
+  "Keukens",
+  "Badkamers",
+  "Ontwerp & Tekeningen",
+];
+
 const services = [
 {
   title: "Houten Kozijnen & Ramen",
