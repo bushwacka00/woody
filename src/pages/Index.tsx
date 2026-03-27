@@ -111,7 +111,25 @@ const Index = () => {
             </div>
             {/* Desktop nav */}
             <div className="hidden md:flex items-center gap-6 lg:gap-8">
-              <a href="#diensten" className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm">Diensten</a>
+              <div className="relative group">
+                <a href="#diensten" className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm flex items-center gap-1">
+                  Diensten
+                  <ChevronDown className="h-3 w-3 transition-transform group-hover:rotate-180" />
+                </a>
+                <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  <div className="bg-background border border-border rounded-lg shadow-lg py-2 min-w-[240px]">
+                    {dienstenLinks.map((label) => (
+                      <a
+                        key={label}
+                        href="/"
+                        className="block px-4 py-2 text-sm text-muted-foreground hover:text-primary hover:bg-accent transition-colors"
+                      >
+                        {label}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
               <a href="#over-ons" className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm">Over Ons</a>
               <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm">Contact</a>
               <Button asChild>
