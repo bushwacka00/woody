@@ -2,9 +2,8 @@ import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRigh
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "/uploads/0-bg-woodykozijnen.webp";
-import logoImg from "@/assets/logo-woody-kozijnen-2.png";
-//import logoImg from "@/public/uploads/0-logo-woody-kozijnen.png";
-//import logoImg from "@/assets/logo.png";
+import logoImg from "@/assets/logo-woody-kozijnen-1.png";
+import logoImgBottom from "@/assets/logo-woody-kozijnen-2.png";
 import { useState } from "react";
  
 const services = [
@@ -339,7 +338,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12">
             <div>
-              <img src={logoImg} alt="Woody Kozijnen" className="h-12 sm:h-16 w-auto mb-4 brightness-200" />
+              <img src={logoImgBottom} alt="Woody Kozijnen" className="h-12 sm:h-16 w-auto mb-4 brightness-200" />
               <p className="text-primary-foreground/60 text-sm leading-relaxed">
                 Specialist in houten kozijnen, deuren, timmerwerk en interieurbouw. Al meer dan 15 jaar vakmanschap.
               </p>
