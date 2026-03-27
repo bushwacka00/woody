@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRigh
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "/uploads/0-bg-woodykozijnen.webp";
-import logoImg from "/uploads/0-logo-woody-kozijnen.png";
+import logoImg from "@/assets/logo-woody-kozijnen-2.png";
 //import logoImg from "@/public/uploads/0-logo-woody-kozijnen.png";
 //import logoImg from "@/assets/logo.png";
 import { useState } from "react";
@@ -93,7 +93,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 sm:h-20">
             <div className="flex items-center gap-2 sm:gap-3">
-              <img alt="Woody Kozijnen logo" className="h-10 sm:h-14 w-auto" src="/uploads/0-logo-woody-kozijnen.png" />
+              <img alt="Woody Kozijnen logo" className="h-10 sm:h-14 w-auto" src={logoImg} />
             </div>
             {/* Desktop nav */}
             <div className="hidden md:flex items-center gap-6 lg:gap-8">
