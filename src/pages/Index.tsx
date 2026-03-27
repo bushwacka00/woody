@@ -155,7 +155,27 @@ const Index = () => {
           {/* Mobile menu */}
           {mobileMenuOpen &&
           <div className="md:hidden pb-4 border-t border-border pt-4 space-y-3">
-              <a href="#diensten" onClick={() => setMobileMenuOpen(false)} className="block text-muted-foreground hover:text-primary transition-colors font-medium">Diensten</a>
+              <button
+                onClick={() => setMobileDienstenOpen(!mobileDienstenOpen)}
+                className="flex items-center justify-between w-full text-muted-foreground hover:text-primary transition-colors font-medium"
+              >
+                Diensten
+                <ChevronDown className={`h-4 w-4 transition-transform ${mobileDienstenOpen ? 'rotate-180' : ''}`} />
+              </button>
+              {mobileDienstenOpen && (
+                <div className="pl-4 space-y-2 mt-2">
+                  {dienstenLinks.map((label) => (
+                    <a
+                      key={label}
+                      href="/"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="block text-sm text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      {label}
+                    </a>
+                  ))}
+                </div>
+              )}
               <a href="#over-ons" onClick={() => setMobileMenuOpen(false)} className="block text-muted-foreground hover:text-primary transition-colors font-medium">Over Ons</a>
               <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="block text-muted-foreground hover:text-primary transition-colors font-medium">Contact</a>
               <Button asChild className="w-full">
