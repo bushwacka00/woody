@@ -98,6 +98,7 @@ const usps = [
 
 const Index = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileDienstenOpen, setMobileDienstenOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-background">
