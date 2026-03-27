@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRight } from "lucide-react";
+import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRight, Quote } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "/uploads/0-bg-woodykozijnen.webp";
@@ -260,6 +260,51 @@ const Index = () => {
               </Card>
             </a>
             )}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="py-16 sm:py-24 bg-card border-y border-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12 sm:mb-16">
+            <p className="text-accent font-medium tracking-widest uppercase text-xs sm:text-sm mb-2 sm:mb-3">Testimonials</p>
+            <h2 className="text-2xl sm:text-4xl font-bold text-foreground">Wat Onze Klanten Zeggen</h2>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
+            {[
+              {
+                text: "Wij wilden kozijnen en schuiframen van onze Haagse woning uit 1906 in klassieke stijl verduurzamen, isoleren met dubbel glas en functioneel maken. Het houtwerk was slecht en een deel van de oorspronkelijke stijl was in de 120 jaar knullig opgelapt (of zelfs weggehaald). Meerdere bedrijven zijn komen kijken en meten. Woodykozijnen kwam hier erg voordelig uit met een veel kennis en vakmanschap voor klassiek herstel en verduurzaming. Ze hebben alle kozijnen weer volledig hersteld of vernieuwd, isolatieglas aangebracht en alle schuiframen weer functioneel gemaakt. Het uiteindelijke resultaat is fantastisch warme uitstraling van de klassieke woning en het genot van optimale isolatie.",
+                author: "Ad & Iet"
+              },
+              {
+                text: "Binnenkort meer te lezen over de ervaring van deze klant.",
+                author: "Klant 2"
+              },
+              {
+                text: "Binnenkort meer te lezen over de ervaring van deze klant.",
+                author: "Klant 3"
+              },
+              {
+                text: "Binnenkort meer te lezen over de ervaring van deze klant.",
+                author: "Klant 4"
+              }
+            ].map((testimonial, index) => (
+              <Card key={index} className="relative overflow-hidden">
+                <CardContent className="p-6 sm:p-8">
+                  <Quote className="h-8 w-8 text-primary/20 mb-4" />
+                  <p className="text-muted-foreground text-sm sm:text-base leading-relaxed mb-6">
+                    {testimonial.text}
+                  </p>
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-sm">
+                      {testimonial.author.charAt(0)}
+                    </div>
+                    <p className="font-semibold text-foreground text-sm sm:text-base">{testimonial.author}</p>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
