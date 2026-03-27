@@ -5,7 +5,21 @@ import heroBg from "/uploads/0-bg-woodykozijnen.webp";
 import logoImg from "/uploads/0-logo-woody-kozijnen-1.png";
 import logoImgBottom from "/uploads/0-logo-woody-kozijnen-2.png";
 import { useState } from "react";
- 
+
+const dienstenLinks = [
+  "Houten Kozijnen & Ramen",
+  "Houten Deuren",
+  "Houten Schuiframen",
+  "Houten Schuifpuien",
+  "Houten Daklijsten",
+  "Renovatie & Verduurzaming",
+  "Timmerwerk & Interieur",
+  "Houten Vloeren",
+  "Keukens",
+  "Badkamers",
+  "Ontwerp & Tekeningen",
+];
+
 const services = [
 {
   title: "Houten Kozijnen & Ramen",
@@ -84,6 +98,7 @@ const usps = [
 
 const Index = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileDienstenOpen, setMobileDienstenOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-background">
@@ -96,7 +111,25 @@ const Index = () => {
             </div>
             {/* Desktop nav */}
             <div className="hidden md:flex items-center gap-6 lg:gap-8">
-              <a href="#diensten" className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm">Diensten</a>
+              <div className="relative group">
+                <a href="#diensten" className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm flex items-center gap-1">
+                  Diensten
+                  <ChevronDown className="h-3 w-3 transition-transform group-hover:rotate-180" />
+                </a>
+                <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  <div className="bg-background border border-border rounded-lg shadow-lg py-2 min-w-[240px]">
+                    {dienstenLinks.map((label) => (
+                      <a
+                        key={label}
+                        href="/"
+                        className="block px-4 py-2 text-sm text-muted-foreground hover:text-primary hover:bg-accent transition-colors"
+                      >
+                        {label}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
               <a href="#over-ons" className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm">Over Ons</a>
               <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm">Contact</a>
               <Button asChild>
@@ -122,7 +155,27 @@ const Index = () => {
           {/* Mobile menu */}
           {mobileMenuOpen &&
           <div className="md:hidden pb-4 border-t border-border pt-4 space-y-3">
-              <a href="#diensten" onClick={() => setMobileMenuOpen(false)} className="block text-muted-foreground hover:text-primary transition-colors font-medium">Diensten</a>
+              <button
+                onClick={() => setMobileDienstenOpen(!mobileDienstenOpen)}
+                className="flex items-center justify-between w-full text-muted-foreground hover:text-primary transition-colors font-medium"
+              >
+                Diensten
+                <ChevronDown className={`h-4 w-4 transition-transform ${mobileDienstenOpen ? 'rotate-180' : ''}`} />
+              </button>
+              {mobileDienstenOpen && (
+                <div className="pl-4 space-y-2 mt-2">
+                  {dienstenLinks.map((label) => (
+                    <a
+                      key={label}
+                      href="/"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="block text-sm text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      {label}
+                    </a>
+                  ))}
+                </div>
+              )}
               <a href="#over-ons" onClick={() => setMobileMenuOpen(false)} className="block text-muted-foreground hover:text-primary transition-colors font-medium">Over Ons</a>
               <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="block text-muted-foreground hover:text-primary transition-colors font-medium">Contact</a>
               <Button asChild className="w-full">
