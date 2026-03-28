@@ -18,6 +18,7 @@ const dienstenLinks = [
   "Keukens",
   "Badkamers",
   "Ontwerp & Tekeningen",
+  "Houtrot reparaties",
 ];
 
 const services = [
