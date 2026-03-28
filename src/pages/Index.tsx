@@ -462,6 +462,8 @@ const Index = () => {
                 <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Houten Vloeren</a></li>
                 <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Keukens</a></li>
                 <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Badkamers</a></li>
+                <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Ontwerp & Tekeningen</a></li>
+                <li><a href="index.html" className="hover:text-primary-foreground transition-colors">Houtrot reparaties</a></li>
               </ul>
             </div>
             <div>

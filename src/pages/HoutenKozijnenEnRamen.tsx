@@ -140,7 +140,7 @@ const HoutenKozijnenEnRamen = () => {
           {mobileMenuOpen && (
             <div className="md:hidden pb-4 border-t border-border pt-4 space-y-3">
               <button onClick={() => setMobileDienstenOpen(!mobileDienstenOpen)} className="flex items-center justify-between w-full text-muted-foreground hover:text-primary transition-colors font-medium">
-                Diensten
+                Producten & Diensten
                 <ChevronDown className={`h-4 w-4 transition-transform ${mobileDienstenOpen ? 'rotate-180' : ''}`} />
               </button>
               {mobileDienstenOpen && (
