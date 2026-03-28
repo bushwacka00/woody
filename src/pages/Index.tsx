@@ -190,7 +190,7 @@ const Index = () => {
                   {dienstenLinks.map((label) => (
                     <a
                       key={label}
-                      href="/"
+                      href={label === "Houten Kozijnen & Ramen" ? "/houten-kozijnen-en-ramen" : "/"}
                       onClick={() => setMobileMenuOpen(false)}
                       className="block text-sm text-muted-foreground hover:text-primary transition-colors"
                     >
