@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRight, Quote } from "lucide-react";
+import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRight, Quote, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "/uploads/0-bg-woodykozijnen.webp";
@@ -394,6 +394,17 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-green-500/10 flex items-center justify-center text-green-600">
+                    <MessageCircle className="h-4 w-4 sm:h-5 sm:w-5" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground text-sm sm:text-base">WhatsApp</p>
+                    <a href="https://wa.me/31628764171" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-green-600 transition-colors text-sm sm:text-base">
+                      Direct chatten
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                     <MapPin className="h-4 w-4 sm:h-5 sm:w-5" />
                   </div>
@@ -476,6 +487,9 @@ const Index = () => {
                   <a href="mailto:info@woodykozijnen.nl" className="hover:text-primary-foreground transition-colors">info@woodykozijnen.nl</a>
                 </li>
                 <li>woodykozijnen.nl</li>
+                <li>
+                  <a href="https://wa.me/31628764171" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground transition-colors">WhatsApp</a>
+                </li>
               </ul>
             </div>
           </div>
