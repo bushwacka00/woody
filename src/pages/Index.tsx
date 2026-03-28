@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRight, Quote } from "lucide-react";
+import { Phone, Mail, MapPin, ChevronDown, Leaf, Shield, Wrench, Star, ArrowRight, Quote, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "/uploads/0-bg-woodykozijnen.webp";
