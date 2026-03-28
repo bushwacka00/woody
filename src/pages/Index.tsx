@@ -203,7 +203,7 @@ const Index = () => {
               <a href="#over-ons" onClick={() => setMobileMenuOpen(false)} className="block text-muted-foreground hover:text-primary transition-colors font-medium">Over Ons</a>
               <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="block text-muted-foreground hover:text-primary transition-colors font-medium">Contact</a>
               <Button asChild className="w-full">
-                <a href="tel:+31612345678" className="gap-2">
+                <a href="tel:+31628764171" className="gap-2">
                   <Phone className="h-4 w-4" />
                   Bel Ons
                 </a>
@@ -344,7 +344,7 @@ const Index = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Button size="lg" variant="secondary" asChild className="text-base">
-              <a href="tel:+31612345678" className="gap-2">
+              <a href="tel:+31628764171" className="gap-2">
                 <Phone className="h-5 w-5" />
                 Bel vrijblijvend
               </a>
@@ -377,7 +377,7 @@ const Index = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground text-sm sm:text-base">Telefoon</p>
-                    <a href="tel:+31612345678" className="text-muted-foreground hover:text-primary transition-colors text-sm sm:text-base">
+                    <a href="tel:+31628764171" className="text-muted-foreground hover:text-primary transition-colors text-sm sm:text-base">
                       +31 6 2876 4171
                     </a>
                   </div>
