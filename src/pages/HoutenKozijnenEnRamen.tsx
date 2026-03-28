@@ -18,6 +18,7 @@ const dienstenLinks = [
   { label: "Keukens", href: "/" },
   { label: "Badkamers", href: "/" },
   { label: "Ontwerp & Tekeningen", href: "/" },
+  { label: "Houtrot reparaties", href: "/" },
 ];
 
 const houtsoorten = [
@@ -109,7 +110,7 @@ const HoutenKozijnenEnRamen = () => {
             <div className="hidden md:flex items-center gap-6 lg:gap-8">
               <div className="relative group">
                 <a href="/#diensten" className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm flex items-center gap-1">
-                  Diensten
+                  Producten & Diensten
                   <ChevronDown className="h-3 w-3 transition-transform group-hover:rotate-180" />
                 </a>
                 <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
@@ -139,7 +140,7 @@ const HoutenKozijnenEnRamen = () => {
           {mobileMenuOpen && (
             <div className="md:hidden pb-4 border-t border-border pt-4 space-y-3">
               <button onClick={() => setMobileDienstenOpen(!mobileDienstenOpen)} className="flex items-center justify-between w-full text-muted-foreground hover:text-primary transition-colors font-medium">
-                Diensten
+                Producten & Diensten
                 <ChevronDown className={`h-4 w-4 transition-transform ${mobileDienstenOpen ? 'rotate-180' : ''}`} />
               </button>
               {mobileDienstenOpen && (
