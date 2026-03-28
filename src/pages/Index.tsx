@@ -487,6 +487,9 @@ const Index = () => {
                   <a href="mailto:info@woodykozijnen.nl" className="hover:text-primary-foreground transition-colors">info@woodykozijnen.nl</a>
                 </li>
                 <li>woodykozijnen.nl</li>
+                <li>
+                  <a href="https://wa.me/31628764171" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground transition-colors">WhatsApp</a>
+                </li>
               </ul>
             </div>
           </div>
