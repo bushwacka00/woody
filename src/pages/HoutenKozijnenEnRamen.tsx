@@ -110,7 +110,7 @@ const HoutenKozijnenEnRamen = () => {
             <div className="hidden md:flex items-center gap-6 lg:gap-8">
               <div className="relative group">
                 <a href="/#diensten" className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm flex items-center gap-1">
-                  Diensten
+                  Producten & Diensten
                   <ChevronDown className="h-3 w-3 transition-transform group-hover:rotate-180" />
                 </a>
                 <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
