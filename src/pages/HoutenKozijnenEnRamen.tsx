@@ -18,6 +18,7 @@ const dienstenLinks = [
   { label: "Keukens", href: "/" },
   { label: "Badkamers", href: "/" },
   { label: "Ontwerp & Tekeningen", href: "/" },
+  { label: "Houtrot reparaties", href: "/" },
 ];
 
 const houtsoorten = [
