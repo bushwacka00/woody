@@ -259,7 +259,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {services.map((service) =>
-            <a key={service.title} href="index.html" className="block">
+            <a key={service.title} href={service.title === "Houten Kozijnen & Ramen" ? "/houten-kozijnen-en-ramen" : "index.html"} className="block">
               <Card className="overflow-hidden group hover:shadow-lg transition-shadow duration-300 border-border cursor-pointer">
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
