@@ -92,7 +92,7 @@ const services = [
 const testimonials = [
   {
     subject: "Vernieuwen klassieke raamkozijnen, schuiframen incl. isolatie.",
-    text: "Wij wilden kozijnen en schuiframen van onze Haagse woning uit 1906 in klassieke stijl verduurzamen, isoleren met dubbel glas en functioneel maken. Het houtwerk was slecht en een deel van de oorspronkelijke stijl was in de 120 jaar knullig opgelapt (of zelfs weggehaald). Meerdere bedrijven zijn komen kijken en meten. Woodykozijnen kwam hier erg voordelig uit met een veel kennis en vakmanschap voor klassiek herstel en verduurzaming. Ze hebben alle kozijnen weer volledig hersteld of vernieuwd, isolatieglas aangebracht en alle schuiframen weer functioneel gemaakt. Het uiteindelijke resultaat is fantastisch warme uitstraling van de klassieke woning en het genot van optimale isolatie.",
+    text: "Wij wilden kozijnen en schuiframen van onze Haagse woning uit 1906 in klassieke stijl verduurzamen, isoleren met dubbel glas en functioneel maken. Het houtwerk was slecht en een deel van de oorspronkelijke stijl was in de 120 jaar knullig opgelapt (of zelfs weggehaald). Meerdere bedrijven zijn komen kijken en meten. Woodykozijnen kwam hier erg voordelig uit met een veel kennis en vakmanschap voor klassiek herstel en verduurzaming, maar ook veel creatieve ideen en oplossingen voor andere werkzaamheden. Ze hebben alle kozijnen weer volledig hersteld of vernieuwd, isolatieglas aangebracht en alle schuiframen weer functioneel gemaakt met hun eigen balansgewichten. Het uiteindelijke resultaat is fantastisch warme uitstraling van de klassieke woning, soepele schuiframen en het genot van optimale isolatie.",
     author: "Ad & Iet"
   },
   {
