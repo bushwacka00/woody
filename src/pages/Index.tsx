@@ -183,7 +183,7 @@ const Index = () => {
                 onClick={() => setMobileDienstenOpen(!mobileDienstenOpen)}
                 className="flex items-center justify-between w-full text-muted-foreground hover:text-primary transition-colors font-medium"
               >
-                Diensten
+                Producten & Diensten
                 <ChevronDown className={`h-4 w-4 transition-transform ${mobileDienstenOpen ? 'rotate-180' : ''}`} />
               </button>
               {mobileDienstenOpen && (
