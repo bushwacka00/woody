@@ -157,7 +157,7 @@ const Index = () => {
               <a href="#over-ons" className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm">Over Ons</a>
               <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm">Contact</a>
               <Button asChild>
-                <a href="tel:+31612345678" className="gap-2">
+                <a href="tel:+31628764171" className="gap-2">
                   <Phone className="h-4 w-4" />
                   Bel Ons
                 </a>
