@@ -144,7 +144,7 @@ const Index = () => {
                     {dienstenLinks.map((label) => (
                       <a
                         key={label}
-                        href="/"
+                        href={label === "Houten Kozijnen & Ramen" ? "/houten-kozijnen-en-ramen" : "/"}
                         className="block px-4 py-2 text-sm text-muted-foreground hover:text-primary hover:bg-accent transition-colors"
                       >
                         {label}
