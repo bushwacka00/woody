@@ -49,7 +49,7 @@ const voordelen = [
   { tekst: "Eindeloze vormvrijheid voor maatwerk en klassieke profielen", type: "voordeel" },
   { tekst: "Warme, authentieke uitstraling die past bij elke woonstijl", type: "voordeel" },
   { tekst: "Eenvoudig te repareren en opnieuw te schilderen", type: "voordeel" },
-  { tekst: "Lange levensduur (40-80 jaar) bij goed onderhoud", type: "voordeel" },
+  { tekst: "Lange levensduur (150 jaar) bij goed onderhoud", type: "voordeel" },
 ];
 
 const nadelenKunststof = [
@@ -309,7 +309,7 @@ const HoutenKozijnenEnRamen = () => {
             ))}
           </div>
           <div className="mt-10 sm:mt-14 bg-secondary/50 rounded-xl p-6 sm:p-10">
-            <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-4">Moderne Isolatietechnieken</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-4">Moderne Isolatietechnieken Voor Optimaal Wooncomfort</h3>
             <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
               <div>
                 <h4 className="font-semibold text-foreground mb-2 text-sm sm:text-base">Warm-edge Spacers</h4>
