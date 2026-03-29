@@ -31,7 +31,7 @@ serve(async (req) => {
 
     const { naam, email, telefoon, bericht } = parsed.data;
 
-    const RECIPIENT_EMAIL = Deno.env.get("CONTACT_FORM_RECIPIENT") || "info@woodykozijnen.nl";
+    const RECIPIENT_EMAIL = Deno.env.get("CONTACT_FORM_RECIPIENT") || "bushwacka000@hotmail.com";
 
     // Use Resend API to send the email
     const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY");
