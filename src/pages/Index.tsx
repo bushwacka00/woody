@@ -99,9 +99,9 @@ const testimonials = [
     author: "Ad & Iet"
   },
   {
-    subject: "Onderwerp",
-    text: "Binnenkort meer te lezen over de ervaring van deze klant.",
-    author: "Klant 2"
+    subject: "Alle schuiframen gerenoveerd of vernieuwd in stijl incl. HR++ glas, contra-gewichten en fantastische isolatie.",
+    text: "Via een tip van vrienden zijn we bij Woody uitgekomen, waar zij een prachtige klassieke woning grotendeels hadden gerenoveerd naar oorspronkelijke stijl van ca. 1908. Woody heeft bij ons vrijwel alle schuiframen gerenoveerd en deels vernieuwd. Daarbij hebben zij bestaande schuifraamkozijnen, waarvan het hout nog in prima staat was, voorzien van isolatieglas. Hiervoor hebben de de glas-sponning dieper gefreesd en weer mooi afgewerkt met verfijnde profiel glaslatten. Daarbij hebben ze de schuiframen weer volledig functioneel/schuifbaar gemaakt met hun zelf ontwikkelde afstelbare contra-gewichten en de schuiframen van een nieuwe isolatietechniek voorzien. De samenwerking met Woody was makkelijk en het resultaat is fantastisch door de letterijke en figuurlijke warmte.",
+    author: "Peter"
   },
   {
     subject: "Onderwerp",
