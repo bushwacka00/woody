@@ -463,7 +463,7 @@ const Index = () => {
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-1.5">Uw Bericht *</label>
-                      <textarea rows={4} required value={formData.bericht} onChange={(e) => setFormData(prev => ({ ...prev, bericht: e.target.value }))} className="w-full px-4 py-2.5 rounded-md border border-input bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-ring resize-none" placeholder="Vertel ons over uw project..." />
+                      <textarea rows={4} required value={formData.bericht} onChange={(e) => setFormData(prev => ({ ...prev, bericht: e.target.value }))} className="w-full px-4 py-2.5 rounded-md border border-input bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-ring resize-none" placeholder="Vertel ons over uw project of uw wensen..." />
                     </div>
                     <Button type="submit" className="w-full" size="lg" disabled={isSubmitting}>
                       {isSubmitting ? (
