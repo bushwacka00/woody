@@ -45,7 +45,7 @@ serve(async (req) => {
     }
 
     const emailHtml = `
-      <h2>Nieuwe offerte aanvraag via de website</h2>
+      <h2>Offerte aanvraag via Woodykozijnen.nl</h2>
       <table style="border-collapse: collapse; width: 100%; max-width: 600px;">
         <tr>
           <td style="padding: 8px 12px; font-weight: bold; border-bottom: 1px solid #eee;">Naam:</td>
@@ -73,7 +73,7 @@ serve(async (req) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: "Website <onboarding@resend.dev>",
+        from: "Woodykozijnen <onboarding@resend.dev>",
         to: [RECIPIENT_EMAIL],
         subject: `Offerte aanvraag van ${naam}`,
         html: emailHtml,
