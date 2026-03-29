@@ -125,6 +125,31 @@ const usps = [
 const Index = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileDienstenOpen, setMobileDienstenOpen] = useState(false);
+  const [formData, setFormData] = useState({ naam: "", email: "", telefoon: "", bericht: "" });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const { toast } = useToast();
+
+  const handleFormSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!formData.naam || !formData.email || !formData.bericht) {
+      toast({ title: "Vul alle verplichte velden in", variant: "destructive" });
+      return;
+    }
+    setIsSubmitting(true);
+    try {
+      const { data, error } = await supabase.functions.invoke("send-contact-email", {
+        body: formData,
+      });
+      if (error) throw error;
+      toast({ title: "Aanvraag verzonden!", description: "Wij nemen zo snel mogelijk contact met u op." });
+      setFormData({ naam: "", email: "", telefoon: "", bericht: "" });
+    } catch (err) {
+      console.error("Form submission error:", err);
+      toast({ title: "Er ging iets mis", description: "Probeer het later opnieuw of neem telefonisch contact op.", variant: "destructive" });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-background">
