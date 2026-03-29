@@ -448,26 +448,35 @@ const Index = () => {
               <Card className="border-border">
                 <CardContent className="p-5 sm:p-8">
                   <h3 className="text-lg sm:text-xl font-bold text-foreground mb-4 sm:mb-6">Offerte Aanvragen</h3>
-                  <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+                   <form className="space-y-4" onSubmit={handleFormSubmit}>
                     <div>
-                      <label className="block text-sm font-medium text-foreground mb-1.5">Naam</label>
-                      <input type="text" className="w-full px-4 py-2.5 rounded-md border border-input bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-ring" placeholder="Uw naam" />
+                      <label className="block text-sm font-medium text-foreground mb-1.5">Naam *</label>
+                      <input type="text" required value={formData.naam} onChange={(e) => setFormData(prev => ({ ...prev, naam: e.target.value }))} className="w-full px-4 py-2.5 rounded-md border border-input bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-ring" placeholder="Uw naam" />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-foreground mb-1.5">E-mail</label>
-                      <input type="email" className="w-full px-4 py-2.5 rounded-md border border-input bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-ring" placeholder="uw@email.nl" />
+                      <label className="block text-sm font-medium text-foreground mb-1.5">E-mail *</label>
+                      <input type="email" required value={formData.email} onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))} className="w-full px-4 py-2.5 rounded-md border border-input bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-ring" placeholder="uw@email.nl" />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-1.5">Telefoon</label>
-                      <input type="tel" className="w-full px-4 py-2.5 rounded-md border border-input bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-ring" placeholder="06-12345678" />
+                      <input type="tel" value={formData.telefoon} onChange={(e) => setFormData(prev => ({ ...prev, telefoon: e.target.value }))} className="w-full px-4 py-2.5 rounded-md border border-input bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-ring" placeholder="06-12345678" />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-foreground mb-1.5">Uw Bericht</label>
-                      <textarea rows={4} className="w-full px-4 py-2.5 rounded-md border border-input bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-ring resize-none" placeholder="Vertel ons over uw project..." />
+                      <label className="block text-sm font-medium text-foreground mb-1.5">Uw Bericht *</label>
+                      <textarea rows={4} required value={formData.bericht} onChange={(e) => setFormData(prev => ({ ...prev, bericht: e.target.value }))} className="w-full px-4 py-2.5 rounded-md border border-input bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-ring resize-none" placeholder="Vertel ons over uw project..." />
                     </div>
-                    <Button type="submit" className="w-full" size="lg">
-                      Verstuur Aanvraag
-                      <ArrowRight className="h-4 w-4 ml-1" />
+                    <Button type="submit" className="w-full" size="lg" disabled={isSubmitting}>
+                      {isSubmitting ? (
+                        <>
+                          <Loader2 className="h-4 w-4 mr-1 animate-spin" />
+                          Verzenden...
+                        </>
+                      ) : (
+                        <>
+                          Verstuur Aanvraag
+                          <ArrowRight className="h-4 w-4 ml-1" />
+                        </>
+                      )}
                     </Button>
                   </form>
                 </CardContent>
