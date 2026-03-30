@@ -109,9 +109,9 @@ const testimonials = [
     author: "Tine en Jaap"
   },
   {
-    subject: "Onderwerp",
-    text: "Binnenkort meer te lezen over de ervaring van deze klant.",
-    author: "Klant 4"
+    subject: "Rustieke oude eiken vloer uit oud pand hergebruikt.",
+    text: "Wij wilden in ons huis alle vloerbedekking vervangen voor een eiken vloer. Ons budget was echter beperkt en zochten naar een alternatief. \nWoodykozijnen kwam met een hele intressante oplossing: een oude gebruikte eiken vloer opkopen. Woody zocht naar geschikte gebruikte vloerplanken. In eerste instantie zag de oude eiken vloer er niet aantrekkelijk uit. De vloer was verkleurd en oud. Na het leggen van de eiken planken werd de vloer opgeschuurd met een vloerschuurmachine en daarna opnieuw geolied. \nWij hadden nooit verwacht dat een oude eiken vloer als een nieuwe, prachtige warme vloer zou uitpakken en wij waren enorm verwonderd. De vloer werd rondom afgewerkt met parketveren en mooie plinten. Vakmanschap! En dat alles voor 1/4 van de prijs van een nieuwe eiken vloer. Zo blij mee!",
+    author: "Hanna en Frans"
   }
 ];
 
