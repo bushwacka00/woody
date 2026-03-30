@@ -94,19 +94,19 @@ const services = [
 
 const testimonials = [
   {
-    subject: "Vernieuwen klassieke raamkozijnen, schuiframen incl. isolatie.",
-    text: "Wij wilden kozijnen en schuiframen van onze Haagse woning uit 1906 in klassieke stijl verduurzamen, isoleren met dubbel glas en functioneel maken. Het houtwerk was slecht en een deel van de oorspronkelijke stijl was in de 120 jaar knullig opgelapt (of zelfs weggehaald). Meerdere bedrijven zijn komen kijken en meten. Woodykozijnen kwam hier erg voordelig uit met een veel kennis en vakmanschap voor klassiek herstel en verduurzaming, maar ook veel creatieve ideen en oplossingen voor andere werkzaamheden. Ze hebben alle kozijnen weer volledig hersteld of vernieuwd, isolatieglas aangebracht en alle schuiframen weer functioneel gemaakt met hun eigen balansgewichten. Het uiteindelijke resultaat is fantastisch warme uitstraling van de klassieke woning, soepele schuiframen en het genot van optimale isolatie.",
+    subject: "Nieuwe klassieke (schuif)raamkozijnen met top isolatie.",
+    text: "Wij wilden kozijnen en schuiframen van onze Haagse woning uit 1906 in klassieke stijl verduurzamen, isoleren met dubbel glas en functioneel maken. Het houtwerk was slecht en een deel van de oorspronkelijke stijl was in de 120 jaar knullig opgelapt (of zelfs weggehaald). Meerdere bedrijven zijn komen kijken en meten. Woodykozijnen kwam hier erg voordelig uit met een veel kennis en vakmanschap voor klassiek herstel en verduurzaming, maar ook veel creatieve ideen en oplossingen voor andere werkzaamheden. Ze hebben alle kozijnen weer volledig hersteld of vernieuwd, isolatieglas aangebracht en alle schuiframen weer functioneel gemaakt met hun eigen balansgewichten. <br>Het uiteindelijke resultaat is een fantastische warme uitstraling van de klassieke woning, soepele schuiframen en het genot van optimale isolatie.",
     author: "Ad & Iet"
   },
   {
-    subject: "Alle schuiframen gerenoveerd of vernieuwd in stijl incl. HR++ glas, contra-gewichten en fantastische isolatie.",
-    text: "Via een tip van vrienden zijn we bij Woody uitgekomen, waar zij een prachtige klassieke woning grotendeels hadden gerenoveerd naar oorspronkelijke stijl van ca. 1908. Woody heeft bij ons vrijwel alle schuiframen gerenoveerd en deels vernieuwd. Daarbij hebben zij bestaande schuifraamkozijnen, waarvan het hout nog in prima staat was, voorzien van isolatieglas. Hiervoor hebben de de glas-sponning dieper gefreesd en weer mooi afgewerkt met verfijnde profiel glaslatten. Daarbij hebben ze de schuiframen weer volledig functioneel/schuifbaar gemaakt met hun zelf ontwikkelde afstelbare contra-gewichten en de schuiframen van een nieuwe isolatietechniek voorzien. De samenwerking met Woody was makkelijk en het resultaat is fantastisch door de letterijke en figuurlijke warmte.",
+    subject: "Renovatie alle schuiframen met isolatieglas en functionele contra-gewichten.",
+    text: "Via een tip van vrienden zijn we bij Woody uitgekomen, waar zij een prachtige klassieke woning grotendeels hadden gerenoveerd naar oorspronkelijke stijl van ca. 1908. Woody heeft bij ons vrijwel alle schuiframen gerenoveerd en deels vernieuwd. <br>Daarbij hebben zij bestaande schuifraamkozijnen, waarvan het hout nog in prima staat was, voorzien van isolatieglas. Hiervoor hebben de de glas-sponning dieper gefreesd voor isolatieglas en weer mooi afgewerkt met verfijnde profiel glaslatten. Daarbij hebben ze de schuiframen weer volledig functioneel/schuifbaar gemaakt met hun zelf ontwikkelde afstelbare contra-gewichten en de schuiframen van een nieuwe isolatietechniek voorzien. <br>De samenwerking met Woody was makkelijk en namen ook werkzaamheden mee die niet waren gepland. <br>Het resultaat is fantastisch door de letterijke en figuurlijke warmte.",
     author: "Floris-Jan"
   },
   {
-    subject: "Onderwerp",
-    text: "Binnenkort meer te lezen over de ervaring van deze klant.",
-    author: "Klant 3"
+    subject: "Nieuwe ensuite met schuifdeuren met het karakter van begin 1900.",
+    text: "In onze karakteristieke woning uit 1932 was de ensuite met schuifdeuren door de vorige eigenaar weggehaald. Wij wilden deze gezellige en praktische ensuite weer terug. Hiervan hadden wij oorspronkelijke foto's en zochten een timmerman die hierin ervaring had. Woody kozijnen toonde ons voorbeelden van vakmanschap en kwam met een hele prettige prijsopgave voor onze portemonnee. Woodykozijnen bracht alles naar de tekentafel en bedacht daarbij creatieve oplossingen voor extra ruimte in de ensuite opstelling. Het eindresultaat is prachtig met een warmt uitstraling door de karakteristieke details. <br>Na dit project heeft Woodykozijnen ook onze tuindeuren ontworpen en gebouwd a.d.h.v. oude tekenningen van vergelijkbare woningen et oog voor detail. Het houtwerk wordt met veel liefde en vakmanschap gebouwd, een echte aanrader!",
+    author: "Tine en Jaap"
   },
   {
     subject: "Onderwerp",
