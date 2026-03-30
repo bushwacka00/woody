@@ -328,7 +328,7 @@ const Index = () => {
                 <CardContent className="p-6 sm:p-8">
                   <Quote className="h-8 w-8 text-primary/20 mb-4" />
                   <h3 className="font-semibold text-foreground text-base sm:text-lg mb-3">{testimonial.subject}</h3>
-                  <p className="text-muted-foreground text-sm sm:text-base leading-relaxed mb-6">
+                  <p className="text-muted-foreground text-sm sm:text-base leading-relaxed mb-6 whitespace-pre-wrap">
                     {testimonial.text}
                   </p>
                   <div className="flex items-center gap-3">
